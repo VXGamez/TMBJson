@@ -1,0 +1,239 @@
+{
+  "username": "Marti \u0026 Victor",
+  "email": "lasallemola@dpolaquemas.url",
+  "year": 1999,
+  "locations_creades": [
+    {
+      "name": "Casa de ella",
+      "coordinates": [
+        2.015784,
+        41.622592
+      ],
+      "description": "Para noches de soledad"
+    },
+    {
+      "name": "Prova",
+      "coordinates": [
+        45.40434,
+        3.2342
+      ],
+      "description": "Localitzacio de prova"
+    }
+  ],
+  "preferides": [
+    {
+      "name": "ESADE",
+      "coordinates": [
+        2.115061,
+        41.39482
+      ],
+      "description": "Es fa competència en mites per metre quadrat amb la Salle Campus Barcelona",
+      "dataDesada": {
+        "year": 2019,
+        "month": 12,
+        "day": 29
+      },
+      "tipus": "oci"
+    },
+    {
+      "name": "Old House",
+      "coordinates": [
+        2.168932,
+        41.406449
+      ],
+      "description": "Antiga casa d\u0027un becari on els veïns flipaven amb tot el que passava.",
+      "dataDesada": {
+        "year": 2019,
+        "month": 12,
+        "day": 29
+      },
+      "tipus": "feina"
+    }
+  ],
+  "HasLocations": true,
+  "HasFavorites": true,
+  "rutesBuscades": [
+    {
+      "origen": "Old House",
+      "destino": "Plaça Catalunya",
+      "diaSortida": "12-29-2019",
+      "horaSortida": "09:00pm",
+      "maxWalkDistance": 800,
+      "itinerari": {
+        "duration": 1370,
+        "transitTime": 298,
+        "walkLimitExceeded": false,
+        "transfers": 0,
+        "legs": [
+          {
+            "distance": 532.999,
+            "mode": "WALK",
+            "route": "",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Origin",
+              "lon": 2.168932,
+              "lat": 41.406449,
+              "orig": ""
+            },
+            "to": {
+              "name": "Carrer de Provença",
+              "lon": 2.1736082867296096,
+              "lat": 41.403842332094825
+            },
+            "duration": 399,
+            "transitLeg": false
+          },
+          {
+            "distance": 125.22044678456189,
+            "mode": "WALK",
+            "route": "",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Sagrada Família",
+              "lon": 2.173618,
+              "lat": 41.403835
+            },
+            "to": {
+              "name": "Sagrada Família",
+              "stopId": "3:1.216",
+              "stopCode": "216",
+              "lon": 2.175106,
+              "lat": 41.403985
+            },
+            "duration": 45,
+            "transitLeg": false
+          },
+          {
+            "distance": 2097.26854272482,
+            "mode": "SUBWAY",
+            "route": "L2",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Sagrada Família",
+              "lon": 2.175106,
+              "lat": 41.403985,
+              "stopId": "3:1.216",
+              "stopCode": "216"
+            },
+            "to": {
+              "name": "Passeig de Gràcia",
+              "stopId": "3:1.213",
+              "stopCode": "213",
+              "lon": 2.168243,
+              "lat": 41.389416
+            },
+            "duration": 298,
+            "transitLeg": true,
+            "headsign": "Paral·lel",
+            "routeShortName": "L2",
+            "routeLongName": "Paral·lel - Badalona Pompeu Fabra"
+          },
+          {
+            "distance": 469.715,
+            "mode": "WALK",
+            "route": "",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Passeig de Gràcia",
+              "lon": 2.168243,
+              "lat": 41.389416,
+              "stopId": "3:1.213",
+              "stopCode": "213"
+            },
+            "to": {
+              "name": "Destination",
+              "lon": 2.170079,
+              "lat": 41.386878,
+              "orig": ""
+            },
+            "duration": 386,
+            "transitLeg": false
+          }
+        ]
+      }
+    },
+    {
+      "origen": "Plaça Catalunya",
+      "destino": "Sagrada Família",
+      "diaSortida": "01-05-2020",
+      "horaSortida": "06:00pm",
+      "maxWalkDistance": 800,
+      "itinerari": {
+        "duration": 1048,
+        "transitTime": 311,
+        "walkLimitExceeded": false,
+        "transfers": 0,
+        "legs": [
+          {
+            "distance": 469.71500000000003,
+            "mode": "WALK",
+            "route": "",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Origin",
+              "lon": 2.170079,
+              "lat": 41.386878,
+              "orig": ""
+            },
+            "to": {
+              "name": "Passeig de Gràcia",
+              "stopId": "3:1.213",
+              "stopCode": "213",
+              "lon": 2.168243,
+              "lat": 41.389416
+            },
+            "duration": 386,
+            "transitLeg": false
+          },
+          {
+            "distance": 2097.268542724504,
+            "mode": "SUBWAY",
+            "route": "L2",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Passeig de Gràcia",
+              "lon": 2.168243,
+              "lat": 41.389416,
+              "stopId": "3:1.213",
+              "stopCode": "213"
+            },
+            "to": {
+              "name": "Sagrada Família",
+              "stopId": "3:1.216",
+              "stopCode": "216",
+              "lon": 2.175106,
+              "lat": 41.403985
+            },
+            "duration": 311,
+            "transitLeg": true,
+            "headsign": "Badalona Pompeu Fabra",
+            "routeShortName": "L2",
+            "routeLongName": "Paral·lel - Badalona Pompeu Fabra"
+          },
+          {
+            "distance": 140.098,
+            "mode": "WALK",
+            "route": "",
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Sagrada Família",
+              "lon": 2.175106,
+              "lat": 41.403985,
+              "stopId": "3:1.216",
+              "stopCode": "216"
+            },
+            "to": {
+              "name": "Destination",
+              "lon": 2.1744,
+              "lat": 41.403475,
+              "orig": ""
+            },
+            "duration": 109,
+            "transitLeg": false
+          }
+        ]
+      }
+    }
+  ]
+}
